@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Bank
+comment0.text=\n\ Bank\ represents\ a\ bank\ that\ holds\ a\ collection\ of\ accounts,\ checkings\ and\ savings.\n\n\ @author\ Cindy\ and\ Anisa\n\ @version\ 10/19/25\n
+comment1.params=
+comment1.target=Bank()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Bank\n
+comment2.params=a
+comment2.target=void\ addAccount(Account)
+comment2.text=\n\ adds\ an\ account\ to\ the\ bank\ account\ collection\n\n\ @param\ \ a\ \ an\ account\ to\ be\ added\ to\ the\ bank\n
+comment3.params=accountType\ owner\ balance
+comment3.target=void\ open(java.lang.String,\ java.lang.String,\ double)
+comment3.text=\n\ opens\ a\ new\ bank\ account\n\n\ @param\ \ accountType\ \ either\ a\ Checking\ or\ Savings\ account\n\ @param\ \ \ owner\ \ \ the\ owner\ of\ the\ account\n\ @param\ \ \ balance\ the\ starting\ balance\ of\ the\ account\n
+comment4.params=accNum
+comment4.target=Account\ search(int)
+comment4.text=\n\ search\ looks\ for\ an\ account\ by\ its\ account\ number\n\n\ @param\ \ accNum\ \ a\ number\ to\ look\ for\ associated\ accounts\n\ @return\ the\ account\ that\ is\ associated\ if\ it\ exists\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ creates\ a\ string\ representation\ of\ a\ bank\n\n\ @return\ \ string\ representation\ of\ a\ bank\n
+comment6.params=
+comment6.target=double\ totalFunds()
+comment6.text=\n\ total\ funds\ finds\ the\ total\ amount\ of\ money\ that\ a\ bank\ manages\n\n\ @return\ the\ total\ amount\ of\ money\n
+comment7.params=owner
+comment7.target=void\ display(java.lang.String)
+comment7.text=\n\ display\ finds\ the\ accounts\ associated\ with\ an\ owner\ \n\n\ @return\ string\ representation\ of\ owner's\ accounts\ \n
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9
